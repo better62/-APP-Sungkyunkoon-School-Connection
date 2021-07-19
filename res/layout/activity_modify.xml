@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이름"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_major"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="전공"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_spec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="스펙1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_spec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="스펙2"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/et_spec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="스펙3"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="전화번호"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="계좌번호"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/info_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="변경완료" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
